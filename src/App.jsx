@@ -31,7 +31,7 @@ export default function App() {
     setMessage("");
 
     try {
-      await axios.post("http://localhost:5000/api/enquiry", form);
+      await axios.post("http:https://kidrove-workshop-glr1.onrender.com", form);
       setMessage("Thank you! Your enquiry has been submitted.");
       setForm({ name: "", email: "", phone: "" });
     } catch (err) {
