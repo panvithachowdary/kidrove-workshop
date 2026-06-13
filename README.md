@@ -1,16 +1,93 @@
-# React + Vite
+# AI & Robotics Summer Workshop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive workshop landing page built with React.js and Express.js for the **AI & Robotics Summer Workshop**. The project showcases workshop details, learning outcomes, FAQs, and a registration form connected to a backend API with MongoDB integration.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+* Modern and responsive UI
+* Hero section with workshop highlights
+* Workshop details section
+* Learning outcomes section
+* FAQ section
+* Registration form
+* Form validation
+* Loading states
+* Express.js backend API
+* MongoDB Atlas integration
+* Mobile-friendly design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Workshop Information
 
-## Expanding the ESLint configuration
+* **Workshop:** AI & Robotics Summer Workshop
+* **Age Group:** 8–14 Years
+* **Duration:** 4 Weeks
+* **Mode:** Online
+* **Fee:** ₹2,999
+* **Start Date:** 15 July 2026
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+### Frontend
+
+* React.js
+* Vite
+* CSS3
+* Framer Motion
+* Lucide React
+
+### Backend
+
+* Node.js
+* Express.js
+* MongoDB Atlas
+* Mongoose
+
+## Project Structure
+
+```txt
+kidrove-workshop/
+│
+├── src/
+├── public/
+├── server/
+│   ├── index.js
+│   ├── package.json
+│   └── .env
+│
+├── package.json
+└── README.md
+```
+
+## Installation
+
+### Frontend
+
+```bash
+npm install
+npm run dev
+```
+
+### Backend
+
+```bash
+cd server
+npm install
+node index.js
+```
+
+## Future Improvements
+
+* TypeScript migration
+* Email notifications
+* Admin dashboard
+* Automated testing
+* Enhanced accessibility
+* Analytics dashboard
+* Workshop registration management
+
+## Author
+
+**Panvitha Chowdary**
+
+GitHub: https://github.com/panvithachowdary
